@@ -1,0 +1,54 @@
+h1 {
+    color: orangered;
+    margin: 30px;
+    }
+    * {
+        justify-content:space-evenly
+    }
+    .header{
+        background-color: gold;
+        display:flex;
+        justify-content: space-between;
+        border : solid;
+    }
+    .grid {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .foot{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    p, h4{
+        text-align: center;
+        text-decoration-color: hotpink;
+    }
+    body{
+        background-color: #808080;
+    }
+    a:link{
+        color: rgba(0, 255, 34, 0.644);
+    }
+    a:visited{
+        color: rgba(255, 0, 0, 0.856);
+    }
+    .menu {
+        border:solid;
+    }
+    .item {
+        position:relative;
+    }
+    .item p, h4{
+        position:absolute;
+        top:85%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        opacity: 0.33;
+    }
+    .item:hover{
+        opacity: 1;
+    }
+    .item:hover img{
+        opacity: 0.33;
+    }
