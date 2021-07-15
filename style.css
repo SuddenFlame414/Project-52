@@ -48,7 +48,9 @@ h1 {
     }
     .item:hover{
         opacity: 1;
+        transform: scale(1.2);
     }
     .item:hover img{
         opacity: 0.33;
+        transform: scale(1.2);
     }
